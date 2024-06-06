@@ -14,6 +14,12 @@
         <vaadin.version>8.0.0.alpha2</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
+     <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <sonar.host.url>http://52.66.253.14:9000/</sonar.host.url>
+         <sonar.login>squ_1f96e07deb6bf71158aec42944b745a6e183f047</sonar.login>
+    </properties>
 
     <repositories>
         <repository>
